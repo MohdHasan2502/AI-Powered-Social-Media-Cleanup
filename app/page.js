@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   const phrase = "AI Social Media Cleanup";
@@ -18,8 +19,8 @@ export default function Home() {
         Enter your <span className="font-semibold text-blue-500">Reddit profile</span>, and let AI do the cleanup.
       </p>
 
-     
-      <div className="mt-8 flex gap-4">
+     <Link href="/login">
+      <div className="mt-8 flex gap-4" >
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -29,6 +30,7 @@ export default function Home() {
           Get Started
         </motion.button>
       </div>
+      </Link>
     </div>
   );
 }

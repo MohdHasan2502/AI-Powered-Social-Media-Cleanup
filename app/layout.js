@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
             </div>
 
             {/* Social Links */}
-            <div className="flex space-x-4 mt-4 md:mt-0">
+            <div className="flex space-x-4  md:mt-0">
               <a href="#" className="hover:text-gray-400 transition">FB</a>
               <a href="#" className="hover:text-gray-400 transition">TW</a>
               <a href="#" className="hover:text-gray-400 transition">IG</a>
