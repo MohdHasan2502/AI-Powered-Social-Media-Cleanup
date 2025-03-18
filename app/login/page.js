@@ -6,11 +6,7 @@ import Link from "next/link";
 
 const Login = () => {
   
-
-  
-
-  
-
+ 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-gradient-to-b from-[#FAF3E0] via-[#F4FF88] to-[#6CF7D5] p-6">
       <div className="bg-white shadow-md rounded-xl p-6 w-full max-w-sm flex flex-col items-center">
